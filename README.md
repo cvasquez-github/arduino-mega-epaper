@@ -41,3 +41,5 @@ https://github.com/waveshare/e-Paper/tree/master/Arduino/epd7in5_V2
  
 ![WaveShare Output Example](https://raw.githubusercontent.com/cvasquez-github/arduino-mega-epaper/main/waveshare_example_output.jpg)
 
+Note: the refresh is REALLY slow! So I wouldn't recommend this for displaying something you may want to update more than once a day (over night)...
+
