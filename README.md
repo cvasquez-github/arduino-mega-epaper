@@ -20,7 +20,7 @@ https://github.com/waveshare/e-Paper/tree/master/Arduino/epd7in5_V2
 
 # Displaying an Image
 - Create a grayscale (or black/white) BMP Image. 400x400 should be fine.
-- Open the image in the Image2LCD tool
+- Open the image in the Image2LCD utility
 - Output file type: C array (*.c)
 - Scan mode: Horizontal Scan
 - BitsPixel: monochrome
