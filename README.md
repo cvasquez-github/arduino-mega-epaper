@@ -1,4 +1,4 @@
-# Arduio MEGA 2560 and WaveShare 7.5" e-Paper Display
+# Arduino MEGA 2560 and WaveShare 7.5" e-Paper Display
 Connecting and driving a WaveShare 7.5" e-Paper Display using an Arduino MEGA 2560.
 
 Sample code from WaveShare GitHub:
