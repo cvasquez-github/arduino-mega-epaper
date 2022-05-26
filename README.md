@@ -18,12 +18,17 @@ https://github.com/waveshare/e-Paper/tree/master/Arduino/epd7in5_V2
 ![alt text](https://raw.githubusercontent.com/cvasquez-github/arduino-mega-epaper/main/arduino-mega-epaper-hat.png)
 
 
-# Displaying an Image
+# Generating an Image
 - Create a grayscale (or black/white) BMP Image. 400x400 should be fine.
 - Open the image in the Image2LCD utility
 - Output file type: C array (*.c)
 - Scan mode: Horizontal Scan
 - BitsPixel: monochrome
 - Reverse color
-- It will generate an array like: `const unsigned char gImage[20000] = {}`
+- Save
+
+![Image2LCD Example](https://raw.githubusercontent.com/cvasquez-github/arduino-mega-epaper/main/image2lcd_example.png)
+
+# Displaying the image
+- Image2LCD utility will generate a .c file with the resulting array like: `const unsigned char gImage[20000] = {}`
 - You may want to use PROGMEM to store the array data in Flash memory instead of RAM (pgmspace.h library): `const unsigned char gImage[20000] PROGMEM = {}`
