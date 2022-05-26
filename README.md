@@ -30,8 +30,13 @@ https://github.com/waveshare/e-Paper/tree/master/Arduino/epd7in5_V2
 ![Image2LCD Example](https://raw.githubusercontent.com/cvasquez-github/arduino-mega-epaper/main/image2lcd_example.png)
 
 # Displaying the image
-- Image2LCD utility will generate a .c file with the resulting array like: `const unsigned char gImage[20000] = {}`
-- You may want to use PROGMEM to store the array data in Flash memory instead of RAM (pgmspace.h library): `const unsigned char gImage[20000] PROGMEM = {}`
-
+- Image2LCD utility will generate a .c file with the resulting array like: 
+`const unsigned char gImage[20000] = {}`
+- Import/Copy the array into your project.
+- You may want to use PROGMEM to store the array data in Flash memory instead of RAM (pgmspace.h library): 
+`const unsigned char gImage[20000] PROGMEM = {}`
+- Then use the Displaypart(PositionX, PositionY, Width, Height) method to write it to the display. Make sure you set the width and height accordingly.  
+epd.Displaypart(gImage,200, 40,400,400);`
+ 
 ![WaveShare Output Example](https://raw.githubusercontent.com/cvasquez-github/arduino-mega-epaper/main/waveshare_example_output.jpg)
 
