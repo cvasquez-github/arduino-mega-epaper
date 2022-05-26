@@ -36,7 +36,7 @@ https://github.com/waveshare/e-Paper/tree/master/Arduino/epd7in5_V2
 - Import/Copy the array into your project.
 - You may want to use PROGMEM to store the array data in Flash memory instead of RAM (pgmspace.h library): 
 `const unsigned char gImage[20000] PROGMEM = {}`
-- Check the Array size. Multiply it by 8, and then divide it by the height of your image, it should give you the resulting width. (it may not be the same as what Img2LCD tool is saying as the output)
+- Check the Array size. Multiply it by 8, and then divide it by the height of your image, it should give you the resulting width. (it may not match what Img2LCD tool is saying as the output)
 - Then use the Displaypart(PositionX, PositionY, Width, Height) method to write it to the display. Make sure you set the width and height accordingly.  
 `epd.Displaypart(gImage,200, 40,400,400);`
  
