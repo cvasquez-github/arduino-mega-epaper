@@ -32,3 +32,6 @@ https://github.com/waveshare/e-Paper/tree/master/Arduino/epd7in5_V2
 # Displaying the image
 - Image2LCD utility will generate a .c file with the resulting array like: `const unsigned char gImage[20000] = {}`
 - You may want to use PROGMEM to store the array data in Flash memory instead of RAM (pgmspace.h library): `const unsigned char gImage[20000] PROGMEM = {}`
+
+![WaveShare Output Example](https://raw.githubusercontent.com/cvasquez-github/arduino-mega-epaper/main/waveshare_example_output.jpg)
+
