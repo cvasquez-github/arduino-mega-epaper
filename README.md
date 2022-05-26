@@ -19,6 +19,7 @@ https://github.com/waveshare/e-Paper/tree/master/Arduino/epd7in5_V2
 
 
 # Generating an Image
+- Download Image2LCD Utility from WaveShare wiki page: https://www.waveshare.com/wiki/File:Image2Lcd.7z
 - Create a grayscale (or black/white) BMP Image. 400x400 should be fine.
 - Open the image in the Image2LCD utility
 - Output file type: C array (*.c)
