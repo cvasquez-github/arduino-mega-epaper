@@ -51,12 +51,12 @@ GxEPD2 Examples:
 https://github.com/ZinggJM/GxEPD2/tree/master/examples
 
 First include the display selection headers:
-'#include "GxEPD2_display_selection.h"
-'#include "GxEPD2_display_selection_added.h"
+`#include "GxEPD2_display_selection.h"
+`#include "GxEPD2_display_selection_added.h"
 
 Uncomment the following line from the GxEPD2_display_selection.h file:
-'GxEPD2_BW<GxEPD2_750_T7, MAX_HEIGHT(GxEPD2_750_T7)>
+`GxEPD2_BW<GxEPD2_750_T7, MAX_HEIGHT(GxEPD2_750_T7)>
 
 And set the CS, DC, RST and BUSY pins accordingly (DC and RST are inverted):
-'GxEPD2_BW<GxEPD2_750_T7, MAX_HEIGHT(GxEPD2_750_T7)> display(GxEPD2_750_T7(/*CS=*/ 10, /*DC=*/ 9, /*RST=*/ 8, /*BUSY=*/ 7)); // GDEW075T7 800x480, EK79655 (GD7965)
+`GxEPD2_BW<GxEPD2_750_T7, MAX_HEIGHT(GxEPD2_750_T7)> display(GxEPD2_750_T7(/*CS=*/ 10, /*DC=*/ 9, /*RST=*/ 8, /*BUSY=*/ 7)); // GDEW075T7 800x480, EK79655 (GD7965)
 
