@@ -44,8 +44,7 @@ https://github.com/waveshare/e-Paper/tree/master/Arduino/epd7in5_V2
 Note: the refresh is really slow! So I wouldn't recommend this for displaying something you may want to continously update (maybe only for things you update once a day, like over night...)
 
 ## Advanced graphics Using GxEPD2 Library
-GxEPD2 GitHub:
-[https://github.com/waveshare/e-Paper/tree/master/Arduino/epd7in5_V2](https://github.com/ZinggJM/GxEPD2)https://github.com/ZinggJM/GxEPD2
+GxEPD2 GitHub:(https://github.com/ZinggJM/GxEPD2)https://github.com/ZinggJM/GxEPD2
 
 GxEPD2 Examples:
 https://github.com/ZinggJM/GxEPD2/tree/master/examples
